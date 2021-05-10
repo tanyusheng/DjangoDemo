@@ -14,11 +14,11 @@
             </div>
             <div id="right">
                 {% if type == '1' %}
-                    【普通会员】{{ username }}欢迎您！
+                    【普通会员】{{ username }} 欢迎您！
                 {% elif type == '2' %}
-                    【超级会员】{{ username }}欢迎您！
+                    【超级会员】{{ username }} 欢迎您！
                 {% elif type == '3' %}
-                    【管理员】{{ username }}欢迎您！
+                    【管理员】{{ username }} 欢迎您！
                 {% else %}
                      <a href="{% url 'login' %}"> 登录 </a>
                 {% endif %}
